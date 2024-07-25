@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.movie_omdbapi_api.fragments.list.ListFragment"
+        android:label="OMDb API">
+        <action
+            android:id="@+id/action_listFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.movie_omdbapi_api.fragments.details.DetailsFragment"
+        android:label="Movie Details">
+        <action
+            android:id="@+id/action_detailsFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <argument
+            android:name="currentMovie"
+            app:argType="com.example.movie_omdbapi_api.MovieResult"
+            app:nullable="true" />
+    </fragment>
+</navigation>

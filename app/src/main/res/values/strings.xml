@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Movie_omdbapi_api</string>
+    <string name="default_movieTitle">The Lion King</string>
+    <string name="default_movieDetails">1994 • G • 88 min</string>
+    <string name="default_movieGenres">Animation, Adventure, Drama</string>
+    <string name="default_moviePlot">Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.</string>
+    <string name="default_movieDirectors">Roger Allers, Rob Minkoff</string>
+    <string name="default_movieWriters">Irene Mecchi, Jonathan Roberts, Linda Woolverton</string>
+    <string name="default_movieActors">Matthew Broderick, Jeremy Irons, James Earl Jones</string>
+    <string name="default_movieAwards">Won 2 Oscars. 43 wins and 35 nominations total</string>
+    <string name="default_imdbRating">IMDb: 8.5/10</string>
+    <string name="default_rottenTomatoesRating">Rotten Tomatoes: 92%</string>
+    <string name="default_metacriticRating">Metacritic: 88/100</string>
+    <string name="default_boxOfficeAmount">$422,783,777</string>
+</resources>
